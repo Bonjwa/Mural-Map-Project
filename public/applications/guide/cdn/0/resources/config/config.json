@@ -1,0 +1,4185 @@
+{
+  "pages": {
+    "home": {
+      "type": "NORMAL",
+      "mode": "FIT_WINDOW",
+      "layout": {
+        "LARGE": "layout_1",
+        "SMALL": "layout_17",
+        "MEDIUM": "layout_255"
+      },
+      "isVisible": true,
+      "isDefault": true,
+      "id": "home",
+      "header": false,
+      "label": "Mural Guide",
+      "bodyBackgroundColor": "var(--info-100)"
+    }
+  },
+  "layouts": {
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "1",
+        "2"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "50px",
+            "width": "100.0%",
+            "height": "92.8%",
+            "right": "0px",
+            "bottom": "8px"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "93.7%",
+            "width": "100.0%",
+            "height": "6.3%"
+          },
+          "widgetId": "widget_166",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "100px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "100px",
+            "height": "60px"
+          },
+          "widgetId": "widget_167"
+        }
+      },
+      "label": "Controller layout"
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "100px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "100px",
+            "height": "60px"
+          },
+          "widgetId": "widget_167"
+        }
+      },
+      "label": "Controller layout"
+    },
+    "layout_5": {
+      "content": {},
+      "order": [],
+      "label": "Open widget layout"
+    },
+    "layout_6": {
+      "content": {},
+      "order": [],
+      "label": "Open widget layout"
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "398px",
+            "height": "738px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          },
+          "isPending": false
+        }
+      },
+      "label": "First"
+    },
+    "layout_9": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "65.8%",
+            "top": "-0.1%",
+            "bottom": "0.3%",
+            "width": "34.2%",
+            "height": "99.8%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "37.9%",
+            "right": "3.5%",
+            "top": "12.9%",
+            "bottom": "49.6%",
+            "width": "58.6%",
+            "height": "37.5%"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "37.7%",
+            "right": "3.4%",
+            "top": "37.4%",
+            "bottom": "13.7%",
+            "width": "58.9%",
+            "height": "48.9%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "label": "Regular"
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "11.6%",
+            "width": "236px",
+            "height": "30.0%",
+            "right": "5.6%",
+            "bottom": "86px"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.8%",
+            "top": "31.5%",
+            "width": "236px",
+            "height": "78px",
+            "right": "5.7%",
+            "bottom": "15.7%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "right": false,
+              "bottom": false,
+              "left": true,
+              "top": true
+            },
+            "order": 0,
+            "lockLayout": false
+          },
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "top": "0.0%",
+            "width": "30.7%",
+            "height": "148px",
+            "right": "69.3%",
+            "bottom": "0.0%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": false,
+              "height": true,
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "58.2%",
+            "right": "2.2%",
+            "top": "65.4%",
+            "bottom": "5.8%",
+            "width": "39.6%",
+            "height": "28.8%"
+          },
+          "widgetId": "widget_177",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "label": "Selected"
+    },
+    "layout_11": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "65.8%",
+            "top": "-0.1%",
+            "bottom": "0.3%",
+            "width": "34.2%",
+            "height": "99.8%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "37.9%",
+            "right": "3.5%",
+            "top": "12.9%",
+            "bottom": "49.6%",
+            "width": "58.6%",
+            "height": "37.5%"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "37.7%",
+            "right": "3.4%",
+            "top": "37.4%",
+            "bottom": "13.7%",
+            "width": "58.9%",
+            "height": "48.9%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "72.3%",
+            "right": "2.1%",
+            "top": "73.8%",
+            "bottom": "1.3%",
+            "width": "25.6%",
+            "height": "24.9%"
+          },
+          "widgetId": "widget_177",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "label": "Selected"
+    },
+    "layout_12": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_13": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "879px",
+            "height": "739px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "label": "Second"
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_16": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_17": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "39.072%",
+            "height": "60px",
+            "right": "0px"
+          },
+          "widgetId": "widget_12",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "60px",
+            "width": "100.0%",
+            "height": "88.1%",
+            "right": "0px",
+            "bottom": "27px"
+          },
+          "widgetId": "widget_13",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 20,
+            "top": 20,
+            "width": "39.072%",
+            "height": "60px",
+            "right": "0px"
+          },
+          "widgetId": "widget_168",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          },
+          "isPending": true
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 20,
+            "top": 20,
+            "width": "39.072%",
+            "height": "60px",
+            "right": "0px"
+          },
+          "widgetId": "widget_170",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          },
+          "isPending": true
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_18": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "9px",
+            "top": "6.7%",
+            "width": "137px",
+            "height": "56px",
+            "right": "64.9%",
+            "bottom": "0.0%"
+          },
+          "setting": {
+            "vCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            },
+            "hCenter": false
+          },
+          "widgetId": "widget_2",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "82px",
+            "top": "2px",
+            "width": "291px",
+            "height": "50px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "hCenter": false,
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "364px",
+            "top": "0px",
+            "width": "207px",
+            "height": "50px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "hCenter": false,
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "isPending": true
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "322px",
+            "top": "0px",
+            "width": "93px",
+            "height": "60px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "height": "STRETCH",
+              "right": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "21.4%",
+            "right": "17.0%",
+            "top": "14.9%",
+            "bottom": "13.1%",
+            "width": "61.6%",
+            "height": "72.0%"
+          },
+          "widgetId": "widget_316",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "label": "Default"
+    },
+    "layout_19": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "width": "356px",
+            "height": "298px",
+            "right": 0,
+            "bottom": 0
+          },
+          "widgetId": "widget_10",
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0",
+            "top": "0",
+            "right": "0",
+            "bottom": "0"
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH",
+              "height": "STRETCH"
+            }
+          }
+        }
+      },
+      "order": [
+        "1",
+        "2"
+      ],
+      "label": "First"
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "1px",
+            "top": "0px",
+            "width": "411px",
+            "height": "140px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_7",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Second"
+    },
+    "layout_39": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "top": "0.0%",
+            "width": "30.7%",
+            "height": "148px",
+            "right": "69.3%",
+            "bottom": "0.0%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": false,
+              "height": true,
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockLayout": true
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "11.6%",
+            "width": "236px",
+            "height": "30.0%",
+            "right": "5.6%",
+            "bottom": "86px"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "31.5%",
+            "width": "236px",
+            "height": "78px",
+            "right": "5.6%",
+            "bottom": "15.7%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "right": false,
+              "bottom": false,
+              "left": true,
+              "top": true
+            },
+            "order": 0,
+            "lockLayout": true
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "label": "Regular"
+    },
+    "layout_40": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": 20,
+            "top": 20,
+            "width": "92.00%",
+            "height": "65.00%",
+            "right": 20,
+            "bottom": "30.6070%"
+          },
+          "widgetId": "widget_28"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "bottom": true,
+              "top": false,
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "20.00px",
+            "top": "72%",
+            "width": 120,
+            "height": 30,
+            "right": 337,
+            "bottom": "18.7094%"
+          },
+          "widgetId": "widget_29",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "bottom": true,
+              "top": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false
+          },
+          "bbox": {
+            "left": 20,
+            "top": "81.00%",
+            "width": "91.6634%",
+            "height": "15.00%",
+            "right": 20,
+            "bottom": 0
+          },
+          "widgetId": "widget_30",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_41": {
+      "type": "FIXED",
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "440px",
+            "top": "12px",
+            "width": "20px",
+            "height": "20px",
+            "right": "20px",
+            "bottom": "400px"
+          },
+          "widgetId": "widget_31",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "bottom": true,
+              "top": false
+            },
+            "order": 0,
+            "lockParent": false,
+            "lockLayout": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "6": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "width": "STRETCH"
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": 20,
+            "right": 20,
+            "top": "45px",
+            "bottom": "41.0525%",
+            "width": "91.6318%",
+            "height": "48.19%"
+          },
+          "widgetId": "widget_32",
+          "isPending": false
+        },
+        "7": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": "CUSTOM",
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "20px",
+            "right": "5.0%",
+            "top": "59.6%",
+            "bottom": "35.6%",
+            "width": "436px",
+            "height": "27px"
+          },
+          "widgetId": "widget_33",
+          "isPending": false
+        },
+        "8": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "width": "STRETCH",
+              "height": "AUTO",
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "20px",
+            "right": "20px",
+            "top": "66.0%",
+            "bottom": "12.9%",
+            "width": "91.7%",
+            "height": "21.1%"
+          },
+          "widgetId": "widget_34",
+          "isPending": false
+        },
+        "10": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "bottom": false,
+              "top": true,
+              "right": false,
+              "left": true
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "79.2%",
+            "right": "20px",
+            "top": "87.5%",
+            "bottom": "22px",
+            "width": "80px",
+            "height": "32px"
+          },
+          "widgetId": "widget_36",
+          "isPending": false
+        },
+        "11": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": "CUSTOM",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "20px",
+            "right": "5.0%",
+            "top": "3.2%",
+            "bottom": "90.6%",
+            "width": "436px",
+            "height": "27px"
+          },
+          "widgetId": "widget_178",
+          "isPending": false
+        }
+      },
+      "order": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "11"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_116": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "2"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "top": "22.2%",
+            "width": "183px",
+            "height": "39px",
+            "right": "84.5%",
+            "bottom": "-0.1%"
+          },
+          "widgetId": "widget_143",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "106px",
+            "top": "8.7%",
+            "width": "226px",
+            "height": "91.7%",
+            "right": "948px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_145",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      }
+    },
+    "layout_117": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "top": "50%",
+            "width": "184px",
+            "height": "40px",
+            "right": "51.9%",
+            "bottom": "20.0%"
+          },
+          "widgetId": "widget_143",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true,
+              "left": false,
+              "right": true
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "385px",
+            "top": "0.0000%",
+            "width": "226px",
+            "height": "100.0000%"
+          },
+          "widgetId": "widget_145",
+          "isPending": true,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "28.8889%",
+            "top": "0.0000%",
+            "width": "83px",
+            "height": "100.0000%",
+            "right": 0
+          },
+          "widgetId": "widget_147",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true
+            }
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "26.7%",
+            "right": "27.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "46.3%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_148",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    "layout_155": {
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "82.5%",
+            "top": "23.1%",
+            "bottom": "15.8%",
+            "width": "17.5%",
+            "height": "61.1%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "8.8%",
+            "right": "62.0%",
+            "top": "0.0%",
+            "bottom": "15.5%",
+            "width": "29.3%",
+            "height": "84.5%"
+          },
+          "widgetId": "widget_312",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_156": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "17px",
+            "top": "6.7%",
+            "width": "137px",
+            "height": "56px",
+            "right": "62.7%",
+            "bottom": "0.0%"
+          },
+          "setting": {
+            "vCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            },
+            "hCenter": false
+          },
+          "widgetId": "widget_169",
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_157": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "17px",
+            "top": "6.7%",
+            "width": "137px",
+            "height": "56px",
+            "right": "62.7%",
+            "bottom": "0.0%"
+          },
+          "setting": {
+            "vCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            },
+            "hCenter": false
+          },
+          "widgetId": "widget_171",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "243px",
+            "top": "0px",
+            "width": "200px",
+            "height": "50px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_172",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_158": {
+      "type": "FIXED",
+      "label": "Controller layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "100px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "100px",
+            "height": "60px"
+          },
+          "widgetId": "widget_173"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_159": {
+      "type": "FIXED",
+      "label": "Controller layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "100px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "100px",
+            "height": "60px"
+          },
+          "widgetId": "widget_174"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_160": {
+      "type": "FIXED",
+      "label": "Controller layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "100px",
+            "top": "0px",
+            "bottom": "60px",
+            "width": "100px",
+            "height": "60px"
+          },
+          "widgetId": "widget_175"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_161": {
+      "label": "Open widget layout"
+    },
+    "layout_162": {
+      "label": "Open widget layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_176",
+          "bbox": {
+            "left": 0,
+            "top": 0,
+            "bottom": 0,
+            "right": 0
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_163": {
+      "label": "Open widget layout"
+    },
+    "layout_248": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "width": "CUSTOM",
+              "right": false,
+              "left": true,
+              "bottom": true,
+              "top": false
+            },
+            "lockParent": false
+          },
+          "bbox": {
+            "left": "92.7441%",
+            "right": "11.00px",
+            "top": "11.00px",
+            "bottom": "16.00px",
+            "width": "20.00px",
+            "height": "20.00px"
+          },
+          "widgetId": "widget_302"
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": false,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          },
+          "bbox": {
+            "left": "0px",
+            "right": "0.0%",
+            "top": "0px",
+            "bottom": "62.2%",
+            "width": "100.0%",
+            "height": "302px"
+          },
+          "widgetId": "widget_303",
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "0px",
+            "top": "302px",
+            "bottom": "48px",
+            "width": "100.0%",
+            "height": "56.3%"
+          },
+          "widgetId": "widget_304",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "lockParent": false,
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "2",
+        "1",
+        "3"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_249": {
+      "type": "COLUMN",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {}
+          },
+          "bbox": {
+            "width": "552px",
+            "height": "450px"
+          },
+          "widgetId": "widget_306"
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "label": "Default"
+    },
+    "layout_254": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "top": "22.2%",
+            "width": "183px",
+            "height": "39px",
+            "right": "84.5%",
+            "bottom": "-0.1%"
+          },
+          "widgetId": "widget_143",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "106px",
+            "top": "8.7%",
+            "width": "226px",
+            "height": "91.7%",
+            "right": "948px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_145",
+          "isPending": false,
+          "setting": {
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "2"
+      ]
+    },
+    "layout_255": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "64px",
+            "width": "100.0%",
+            "height": "93.8%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_313",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "94.4%",
+            "width": "100.0%",
+            "height": "5.6%"
+          },
+          "widgetId": "widget_314",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_256": {
+      "type": "FIXED",
+      "label": "First",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "340.00px",
+            "height": "555px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "width": "CUSTOM",
+              "top": false,
+              "bottom": false,
+              "height": "AUTO"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true,
+            "heightMode": "fixed",
+            "aspectRatio": 1.85
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_257": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "top": "0.0%",
+            "width": "30.7%",
+            "height": "148px",
+            "right": "69.3%",
+            "bottom": "0.0%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": false,
+              "height": true,
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockLayout": true
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "11.6%",
+            "width": "236px",
+            "height": "30.0%",
+            "right": "5.6%",
+            "bottom": "86px"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "31.5%",
+            "width": "236px",
+            "height": "78px",
+            "right": "5.6%",
+            "bottom": "15.7%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "right": false,
+              "bottom": false,
+              "left": true,
+              "top": true
+            },
+            "order": 0,
+            "lockLayout": true
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_258": {
+      "type": "FIXED",
+      "label": "Selected",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "top": "11.6%",
+            "width": "236px",
+            "height": "30.0%",
+            "right": "5.6%",
+            "bottom": "86px"
+          },
+          "widgetId": "widget_24",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.8%",
+            "top": "31.5%",
+            "width": "236px",
+            "height": "78px",
+            "right": "5.7%",
+            "bottom": "15.7%"
+          },
+          "widgetId": "widget_25",
+          "setting": {
+            "lockParent": true,
+            "hCenter": false,
+            "vCenter": false,
+            "autoProps": {
+              "width": true,
+              "height": true,
+              "right": false,
+              "bottom": false,
+              "left": true,
+              "top": true
+            },
+            "order": 0,
+            "lockLayout": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "top": "0.0%",
+            "width": "30.7%",
+            "height": "148px",
+            "right": "69.3%",
+            "bottom": "0.0%"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "width": false,
+              "height": true,
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "58.2%",
+            "right": "2.2%",
+            "top": "65.4%",
+            "bottom": "5.8%",
+            "width": "39.6%",
+            "height": "28.8%"
+          },
+          "widgetId": "widget_177",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_259": {
+      "type": "FIXED",
+      "label": "Hover"
+    },
+    "layout_260": {
+      "type": "FIXED",
+      "label": "Second",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "257px",
+            "height": "958px",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_11",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_261": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_262": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "1.9%",
+            "right": "73.7%",
+            "top": "14.8%",
+            "bottom": "16.7%",
+            "width": "24.4%",
+            "height": "68.5%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "12.9%",
+            "right": "48.5%",
+            "top": "0.6%",
+            "bottom": "14.9%",
+            "width": "38.6%",
+            "height": "84.5%"
+          },
+          "widgetId": "widget_312",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "widgets": {
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "originalUrl": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "fileName": "1622241057314.png",
+            "originalName": "CTQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1622241057314",
+            "isUseCompress": false,
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M0 0v28h28V0H0z",
+              "cropShape": "rectangle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.4.0",
+      "label": "Image 1"
+    },
+    "widget_3": {
+      "id": "widget_3",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p><span style=\"font-size: 24px; color: var(--org-header-color);\">Mural Map Guide</span></p><p><br></p><p><br></p>",
+        "placeholder": "<p><span style=\"font-size: 24px; color: var(--light);\">Here is the title</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Text 1"
+    },
+    "widget_4": {
+      "id": "widget_4",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 16px;\">﻿CTQ Consultants</span></p>",
+        "placeholder": "<p><span style=\"color: var(--light); font-size: 16px;\">Here is the subtitle</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Text 2"
+    },
+    "widget_5": {
+      "id": "widget_5",
+      "uri": "widgets/common/controller/",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "openStarts": []
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--primary-400)",
+                "border": {
+                  "color": "var(--primary-400)",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--primary-500)"
+              },
+              "active": {
+                "bg": "#000",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "var(--dark-200)",
+                "bg": "var(--light-500)",
+                "border": {
+                  "color": "var(--light-500)"
+                }
+              }
+            }
+          }
+        }
+      },
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_3",
+          "SMALL": "layout_4"
+        },
+        "_openwidget": {
+          "LARGE": "layout_5",
+          "SMALL": "layout_6"
+        }
+      },
+      "widgets": [
+        "widget_14",
+        "widget_15"
+      ],
+      "version": "1.4.0",
+      "label": "Widget Controller 1"
+    },
+    "widget_6": {
+      "id": "widget_6",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "398px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 40,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "template": "rect"
+        },
+        "defaultState": 1
+      },
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_7"
+        },
+        "SECOND": {
+          "LARGE": "layout_14"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Sidebar 1"
+    },
+    "widget_7": {
+      "id": "widget_7",
+      "uri": "widgets/common/list/",
+      "config": {
+        "maxItems": 100,
+        "space": 0,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE4",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 398,
+                "height": 150
+              },
+              "SMALL": {
+                "width": 398,
+                "height": 90
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            }
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 398,
+                "height": 150
+              },
+              "SMALL": {
+                "width": 398,
+                "height": 90
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            }
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 398,
+                "height": 150
+              },
+              "SMALL": {
+                "width": 398,
+                "height": 90
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              },
+              "borderRadius": {
+                "number": [
+                  20
+                ],
+                "unit": "px"
+              }
+            },
+            "selectionMode": "SINGLE"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "lockItemRatio": false,
+        "filterOpen": false,
+        "navigatorOpen": false,
+        "sortOpen": true,
+        "sorts": [
+          {
+            "ruleOptionName": "Tour Number",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "Tour_Number",
+                "order": "ASC"
+              }
+            ]
+          }
+        ],
+        "searchOpen": true,
+        "searchFields": "Artist,Mural_Name",
+        "searchHint": "",
+        "showSelectedOnlyOpen": true,
+        "showClearSelected": true
+      },
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_39",
+          "SMALL": "layout_9",
+          "MEDIUM": "layout_257"
+        },
+        "SELECTED": {
+          "LARGE": "layout_10",
+          "SMALL": "layout_11",
+          "MEDIUM": "layout_258"
+        },
+        "HOVER": {
+          "LARGE": "layout_12",
+          "SMALL": "layout_13",
+          "MEDIUM": "layout_259"
+        }
+      },
+      "version": "1.4.0",
+      "label": "MuralList",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Tour_Number",
+            "Artist",
+            "Mural_Name"
+          ]
+        }
+      ],
+      "dataActions": {
+        "zoomToFeature": {
+          "actions": {
+            "widget_11": {
+              "enabled": true
+            }
+          }
+        },
+        "panTo": {
+          "actions": {
+            "widget_11": {
+              "enabled": true
+            }
+          }
+        },
+        "actions": {
+          "widget_11": {
+            "enabled": true
+          }
+        }
+      },
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "var(--info-500)",
+          "width": "1px"
+        }
+      }
+    },
+    "widget_10": {
+      "id": "widget_10",
+      "uri": "widgets/common/text/",
+      "config": {
+        "text": "",
+        "placeholder": "<p style=\"\"><span style=\"font-size: 13px;\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Text 4",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "dataViewId": "selection"
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_11": {
+      "id": "widget_11",
+      "uri": "widgets/arcgis/arcgis-map/",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canLocate": true,
+          "canBaseMap": true,
+          "canMeasure": false,
+          "canSelect": false,
+          "canSelectState": false
+        },
+        "layoutIndex": 0,
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -13296272.402638502,
+              "y": 6425546.564047498
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -13306610.510714058,
+            "ymin": 6416870.961337142,
+            "xmax": -13285934.294562947,
+            "ymax": 6434222.166757854
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_2",
+        "disablePopUp": true,
+        "selectionHighlightColor": "#00FFFF"
+      },
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_15",
+          "SMALL": "layout_16",
+          "MEDIUM": "layout_261"
+        }
+      },
+      "version": "1.4.0",
+      "label": "MuralMap",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_12": {
+      "id": "widget_12",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_18"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Fixed Panel 2"
+    },
+    "widget_13": {
+      "id": "widget_13",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "262px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 40,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "colors.primary"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "template": "rect"
+        },
+        "defaultState": 1
+      },
+      "layouts": {
+        "FIRST": {
+          "SMALL": "layout_19"
+        },
+        "SECOND": {
+          "SMALL": "layout_20"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Sidebar 2"
+    },
+    "widget_23": {
+      "uri": "widgets/common/image/",
+      "version": "1.4.0",
+      "label": "Mural_img",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": null,
+          "dynamicUrlType": null,
+          "imgSourceType": "BYDYNAMICURL",
+          "srcExpression": {
+            "name": "{Image URL}",
+            "parts": [
+              {
+                "type": "FIELD",
+                "exp": "{Image URL}",
+                "dataSourceId": "dataSource_2-Murals_20201103_5167",
+                "jimuFieldName": "Image_URL",
+                "isFromRepeatedDataSourceContext": true
+              }
+            ]
+          }
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_23",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Image_URL"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_24": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Title",
+      "config": {
+        "text": "<h5><span style=\"color: var(--dark-800); font-size: 15px;\">﻿</span><exp data-uniqueid=\"6f90e40d_721a_85ea_1309_d9ca43b38d4a\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BMural%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167%22%2C%22jimuFieldName%22%3A%22Mural_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Mural Name}</span>﻿</exp> </h5>",
+        "placeholder": "<h5><span style=\"font-size: 15px;color: var(--dark-800);\">Double click to edit text</span></h5>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": false,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "id": "widget_24",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Mural_Name"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_25": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Info",
+      "config": {
+        "text": "<p><span style=\"font-size: 13px; color: var(--dark-800);\">Region: </span><exp data-uniqueid=\"8d0f187b_5b9f_79ab_3416_e5e59497e543\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BRegion%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRegion%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167%22%2C%22jimuFieldName%22%3A%22Region%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Region}﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><span style=\"color: rgb(227, 227, 227);\">Tour Number: </span><exp data-uniqueid=\"e8d99d0d_3679_c5a9_1ffa_084e585c4608\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BTour_Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTour_Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167%22%2C%22jimuFieldName%22%3A%22Tour_Number%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Tour_Number}﻿﻿﻿</span>﻿</exp> </p>",
+        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "id": "widget_25",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Region",
+            "Tour_Number"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_28": {
+      "uri": "widgets/common/image/",
+      "version": "1.4.0",
+      "label": "Image 5",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {}
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_28"
+    },
+    "widget_29": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 9",
+      "config": {
+        "text": "",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_29"
+    },
+    "widget_30": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 10",
+      "config": {
+        "text": "",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_30"
+    },
+    "widget_31": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 3",
+      "config": {
+        "functionConfig": {
+          "text": "",
+          "textExpression": null,
+          "icon": {
+            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
+            "position": "LEFT"
+          },
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": false,
+          "customStyle": {
+            "regular": {
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            },
+            "hover": {
+              "iconProps": {
+                "color": "#076fe5",
+                "size": 14
+              }
+            }
+          },
+          "themeStyle": {
+            "quickStyleType": "tertiary"
+          }
+        }
+      },
+      "id": "widget_31"
+    },
+    "widget_32": {
+      "uri": "widgets/common/image/",
+      "version": "1.4.0",
+      "label": "Image 6",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": null,
+          "altTextExpression": null,
+          "imgSourceType": "BYDYNAMICURL",
+          "srcExpression": {
+            "name": "{Image URL}",
+            "parts": [
+              {
+                "type": "FIELD",
+                "exp": "{Image URL}",
+                "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+                "jimuFieldName": "Image_URL",
+                "isFromRepeatedDataSourceContext": false
+              }
+            ]
+          },
+          "dynamicUrlType": null,
+          "altTextWithAttachmentName": null,
+          "toolTipWithAttachmentName": null,
+          "isSelectedFromRepeatedDataSourceContext": null,
+          "useDataSourceForMainDataAndViewSelector": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_32",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Image_URL"
+          ],
+          "dataViewId": "selection"
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_33": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 11",
+      "config": {
+        "text": "<p><exp data-uniqueid=\"2b3cba13_6b95_9696_8aa7_d8bf7c72998a\" data-dsid=\"dataSource_2-Murals_20201103_5167-selection\" data-expression=\"%7B%22name%22%3A%22%7BArtist%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Artist}</span>﻿</exp>  </p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_33",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "dataViewId": "selection",
+          "fields": [
+            "Artist"
+          ]
+        }
+      ]
+    },
+    "widget_34": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 12",
+      "config": {
+        "text": "<p><span style=\"color: var(--dark-800);\">﻿</span><exp data-uniqueid=\"295ff772_059f_9281_f026_a82bd8e5d407\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Description%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Description}﻿</span>﻿</exp> </p><p><exp data-uniqueid=\"371d511c_0fc7_ce43_f3c9_2fff153a8272\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BYear%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BYear%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Year%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Year}</span>﻿</exp> </p><p><exp data-uniqueid=\"988b9f3b_a199_705c_2c52_2ba5fc0ba5d4\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BAddress%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAddress%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Address%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Address}</span>﻿</exp> </p><p><exp data-uniqueid=\"aca7b807_7bf4_cec6_f63d_26ba1d9aa682\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BLocation%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLocation%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Location%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Location}</span>﻿</exp> </p><p><exp data-uniqueid=\"4f7a1ad4_d1d3_9b1b_41ae_ebd38d5f6ad7\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BMural%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Mural URL}</span>﻿</exp> </p><p><exp data-uniqueid=\"d9507e32_8598_bebe_9701_0d86c8999885\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Artist URL}</span>﻿</exp> </p>",
+        "placeholder": "<p><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_34",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Description",
+            "Year",
+            "Address",
+            "Location",
+            "Mural_URL",
+            "Artist_URL"
+          ]
+        }
+      ]
+    },
+    "widget_36": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 5",
+      "config": {
+        "functionConfig": {
+          "text": "Back",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": false,
+          "customStyle": {
+            "hover": {
+              "iconProps": {
+                "size": 14
+              }
+            },
+            "regular": {
+              "iconProps": {
+                "color": "var(--black)",
+                "size": 14
+              }
+            }
+          },
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_36",
+      "useDataSources": []
+    },
+    "widget_143": {
+      "uri": "widgets/common/image/",
+      "version": "1.4.0",
+      "label": "Image 33",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "originalUrl": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "fileName": "1622241057314.png",
+            "originalName": "CTQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1622241057314",
+            "isUseCompress": false
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_143"
+    },
+    "widget_145": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 56",
+      "config": {
+        "text": "<p><span style=\"font-size: 25px;\">﻿Kelowna Murals</span></p>",
+        "placeholder": "<p style=\"line-height: 2.5;\"><span style=\"font-size: 1rem;\">Here is the subtitle</span></p>",
+        "style": {
+          "verticalAlign": "center",
+          "wrap": true
+        }
+      },
+      "id": "widget_145"
+    },
+    "widget_147": {
+      "uri": "widgets/common/menu/",
+      "version": "1.4.0",
+      "label": "Menu 2",
+      "config": {
+        "type": "drawer",
+        "menuStyle": "underline",
+        "vertical": true,
+        "standard": {
+          "icon": {
+            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#fff",
+              "size": 20,
+              "inlineSvg": false
+            }
+          },
+          "submenuMode": "foldable",
+          "textAlign": "center",
+          "showIcon": false,
+          "showText": true,
+          "iconPosition": "start",
+          "gap": "0px"
+        },
+        "advanced": false,
+        "variant": null
+      },
+      "id": "widget_147"
+    },
+    "widget_148": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 57",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><span style=\"font-size: 24px;\">Kelowna Murals</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_148"
+    },
+    "widget_166": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.4.0",
+      "label": "Fixed Panel 7",
+      "id": "widget_166",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_155"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary-200)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_167": {
+      "uri": "widgets/common/share/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/share//icon.svg",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Share",
+      "config": {
+        "uiMode": "POPUP",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M4 2v2H2v10h10v-4h2v4a2 2 0 01-2 2H2a2 2 0 01-2-2V4a2 2 0 012-2h2zm7-2l5 5-5 5V7c-5 0-6 2.5-7 5.5C3 9 3 3 11 3V0z\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#c5c5c5",
+              "size": 16,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            "embed",
+            "qrcode",
+            "facebook",
+            "twitter",
+            "linkedin"
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            "facebook",
+            "twitter",
+            "linkedin",
+            "qrcode",
+            "sharelink"
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "default",
+            "size": "lg"
+          }
+        }
+      },
+      "id": "widget_167"
+    },
+    "widget_168": {
+      "id": "widget_168",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_156"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Fixed Panel 2 copy"
+    },
+    "widget_169": {
+      "id": "widget_169",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "originalUrl": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "fileName": "1622241057314.png",
+            "originalName": "CTQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1622241057314",
+            "isUseCompress": false,
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.4.0",
+      "label": "Image 1 copy"
+    },
+    "widget_170": {
+      "id": "widget_170",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_157"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Fixed Panel 2 copy 2"
+    },
+    "widget_171": {
+      "id": "widget_171",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "originalUrl": "${appResourceUrl}/images/widget_143/1622241057314.png",
+            "fileName": "1622241057314.png",
+            "originalName": "CTQ.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1622241057314",
+            "isUseCompress": false,
+            "cropParam": {
+              "svgViewBox": "0 0 28 28",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "cropShape": "circle"
+            }
+          },
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "version": "1.4.0",
+      "label": "Image 1 copy 2"
+    },
+    "widget_172": {
+      "id": "widget_172",
+      "uri": "widgets/common/controller/",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "openStarts": []
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--primary-400)",
+                "border": {
+                  "color": "var(--primary-400)",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--primary-500)"
+              },
+              "active": {
+                "bg": "#000",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "var(--dark-200)",
+                "bg": "var(--light-500)",
+                "border": {
+                  "color": "var(--light-500)"
+                }
+              }
+            }
+          }
+        }
+      },
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_158",
+          "SMALL": "layout_159",
+          "MEDIUM": "layout_160"
+        },
+        "_openwidget": {
+          "LARGE": "layout_161",
+          "SMALL": "layout_162",
+          "MEDIUM": "layout_163"
+        }
+      },
+      "widgets": [
+        "widget_14",
+        "widget_15"
+      ],
+      "version": "1.4.0",
+      "label": "Widget Controller 1 copy"
+    },
+    "widget_173": {
+      "uri": "widgets/common/share/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/share//icon.svg",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Share copy",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M13.5 0a2.5 2.5 0 11-1.741 4.294L5.938 7.39a3.013 3.013 0 01-.023 1.32l5.62 3.245a2.5 2.5 0 11-.45.896L5.517 9.634a3 3 0 11.054-3.182l5.621-2.989A2.5 2.5 0 0113.5 0zm0 12.5a1 1 0 100 2 1 1 0 000-2zM3 6.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm10.5-5a1 1 0 100 2 1 1 0 000-2z\" fill-rule=\"evenodd\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#c5c5c5",
+              "size": 16,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            "embed",
+            "qrcode",
+            "email",
+            "facebook",
+            "twitter",
+            "pinterest",
+            "linkedin"
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            "facebook",
+            "twitter",
+            "linkedin",
+            "qrcode",
+            "sharelink"
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "default",
+            "size": "lg"
+          }
+        }
+      },
+      "id": "widget_173"
+    },
+    "widget_174": {
+      "uri": "widgets/common/share/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/share//icon.svg",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Share copy 2",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M13.5 0a2.5 2.5 0 11-1.741 4.294L5.938 7.39a3.013 3.013 0 01-.023 1.32l5.62 3.245a2.5 2.5 0 11-.45.896L5.517 9.634a3 3 0 11.054-3.182l5.621-2.989A2.5 2.5 0 0113.5 0zm0 12.5a1 1 0 100 2 1 1 0 000-2zM3 6.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm10.5-5a1 1 0 100 2 1 1 0 000-2z\" fill-rule=\"evenodd\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#c5c5c5",
+              "size": 16,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            "embed",
+            "qrcode",
+            "email",
+            "facebook",
+            "twitter",
+            "pinterest",
+            "linkedin"
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            "facebook",
+            "twitter",
+            "linkedin",
+            "qrcode",
+            "sharelink"
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "default",
+            "size": "lg"
+          }
+        }
+      },
+      "id": "widget_174"
+    },
+    "widget_175": {
+      "uri": "widgets/common/share/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/share//icon.svg",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Share copy 3",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M13.5 0a2.5 2.5 0 11-1.741 4.294L5.938 7.39a3.013 3.013 0 01-.023 1.32l5.62 3.245a2.5 2.5 0 11-.45.896L5.517 9.634a3 3 0 11.054-3.182l5.621-2.989A2.5 2.5 0 0113.5 0zm0 12.5a1 1 0 100 2 1 1 0 000-2zM3 6.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm10.5-5a1 1 0 100 2 1 1 0 000-2z\" fill-rule=\"evenodd\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#c5c5c5",
+              "size": 16,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            "embed",
+            "qrcode",
+            "email",
+            "facebook",
+            "twitter",
+            "pinterest",
+            "linkedin"
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            "facebook",
+            "twitter",
+            "linkedin",
+            "qrcode",
+            "sharelink"
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "default",
+            "size": "lg"
+          }
+        }
+      },
+      "id": "widget_175"
+    },
+    "widget_176": {
+      "uri": "widgets/common/share/",
+      "version": "1.4.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/common/share//icon.svg",
+        "properties": {
+          "filename": null,
+          "originalName": null,
+          "path": null,
+          "color": "#fff",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Share copy 4",
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": {
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path d=\"M13.5 0a2.5 2.5 0 11-1.741 4.294L5.938 7.39a3.013 3.013 0 01-.023 1.32l5.62 3.245a2.5 2.5 0 11-.45.896L5.517 9.634a3 3 0 11.054-3.182l5.621-2.989A2.5 2.5 0 0113.5 0zm0 12.5a1 1 0 100 2 1 1 0 000-2zM3 6.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm10.5-5a1 1 0 100 2 1 1 0 000-2z\" fill-rule=\"evenodd\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#c5c5c5",
+              "size": 16,
+              "inlineSvg": true
+            }
+          },
+          "items": [
+            "embed",
+            "qrcode",
+            "email",
+            "facebook",
+            "twitter",
+            "pinterest",
+            "linkedin"
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            "facebook",
+            "twitter",
+            "linkedin",
+            "qrcode",
+            "sharelink"
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "default",
+            "size": "lg"
+          }
+        }
+      },
+      "id": "widget_176"
+    },
+    "widget_177": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 6",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 1a6 6 0 100 12A6 6 0 007 1zm0 13a7 7 0 115.621-2.828l-.222.284 3.405 3.404a.668.668 0 01-.944.944L11.456 12.4A6.974 6.974 0 017 14z\" fill=\"#000\" fill-rule=\"evenodd\"></path></svg>",
+            "position": "LEFT"
+          },
+          "textExpression": {
+            "name": "More Info",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"More Info\""
+              }
+            ]
+          },
+          "text": "",
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_3"
+          }
+        },
+        "styleConfig": {
+          "useCustom": false,
+          "customStyle": {
+            "regular": {
+              "iconProps": {
+                "color": "var(--black)",
+                "size": 14
+              }
+            },
+            "hover": {
+              "iconProps": {
+                "size": 14
+              }
+            }
+          },
+          "themeStyle": {
+            "quickStyleType": "default"
+          }
+        }
+      },
+      "id": "widget_177",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "borderRadius": {
+          "number": [
+            50
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_178": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 11 copy",
+      "config": {
+        "text": "<p><exp data-uniqueid=\"4b23da9d_fba9_08dc_f67e_3f3eb6843800\" data-dsid=\"dataSource_2-Murals_20201103_5167-selection\" data-expression=\"%7B%22name%22%3A%22%7BMural%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{Mural Name}</span>﻿</exp> </p>",
+        "placeholder": "<p><strong style=\"font-size: 14px; color: var(--dark-800);\">Title</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_178",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "dataViewId": "selection",
+          "fields": [
+            "Mural_Name"
+          ]
+        }
+      ]
+    },
+    "widget_302": {
+      "uri": "widgets/common/button/",
+      "version": "1.4.0",
+      "label": "Button 8",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "current_page",
+            "openType": "_self"
+          },
+          "icon": {
+            "data": "<svg viewBox=\"0 0 14 14\" xmlns=\"http://www.w3.org/2000/svg\"><g fill-rule=\"nonzero\" fill=\"none\"><path d=\"M7.745 7l4.1 4.1a.527.527 0 01-.745.746L7 7.746l-4.1 4.1a.527.527 0 01-.746-.746l4.1-4.1-4.1-4.1a.527.527 0 01.746-.746l4.1 4.1 4.1-4.1a.527.527 0 01.746.746L7.746 7z\" fill=\"#000\"></path><path d=\"M1 1h12v12H1z\"></path></g></svg>",
+            "position": "LEFT"
+          },
+          "text": "",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "1px"
+              },
+              "text": {
+                "color": "#181818",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  15
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "undefinedpx"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  15
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          },
+          "useCustom": true
+        }
+      },
+      "id": "widget_302"
+    },
+    "widget_303": {
+      "uri": "widgets/common/image/",
+      "version": "1.4.0",
+      "label": "Image 45",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": null,
+          "dynamicUrlType": null,
+          "altTextWithAttachmentName": null,
+          "toolTipWithAttachmentName": null,
+          "isSelectedFromRepeatedDataSourceContext": null,
+          "useDataSourceForMainDataAndViewSelector": null,
+          "imgSourceType": "BYDYNAMICURL",
+          "srcExpression": {
+            "name": "{Image URL}",
+            "parts": [
+              {
+                "type": "FIELD",
+                "exp": "{Image URL}",
+                "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+                "jimuFieldName": "Image_URL",
+                "isFromRepeatedDataSourceContext": false
+              }
+            ]
+          }
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_303",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "dataViewId": "selection",
+          "fields": [
+            "Image_URL"
+          ]
+        }
+      ]
+    },
+    "widget_304": {
+      "uri": "widgets/layout/column/",
+      "version": "1.4.0",
+      "label": "Column 43",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_304",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_249"
+        }
+      }
+    },
+    "widget_306": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 80",
+      "config": {
+        "text": "<p><exp data-uniqueid=\"710b9f9a_78c8_5c98_1c53_29853c441c63\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BMural%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{Mural Name}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p><exp data-uniqueid=\"fdc2562a_98a7_f4b8_603f_4bb3c25e6bc0\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Description%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Description}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p>Artist: <span style=\"color: var(--dark-800);\">﻿</span><exp data-uniqueid=\"c57d19b1_74fa_fb1f_49d0_cff2fb24819f\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Artist}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p>Year: <exp data-uniqueid=\"57761990_d68e_ab11_0a6f_b80c2a916378\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BYear%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BYear%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Year%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Year}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p>Address: <exp data-uniqueid=\"6e2744e6_2b30_8990_8625_22a0e607029d\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BAddress%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAddress%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Address%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Address}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p>Location: <exp data-uniqueid=\"765cda0e_eb97_f241_bae0_c2564fba79da\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BLocation%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLocation%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Location%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Location}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp> </p><p><br></p><p><exp data-uniqueid=\"15f7fe3d_a348_eb34_0b25_ccc8907b52d6\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BMural%20URL%20Label%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20URL%20Label%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_URL_Label%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Mural URL Label}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  <a href=\"\" target=\"_blank\" data-uniqueid=\"43b19bd4_4ac7_23a0_a94f_c0ff998452ee\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BMural%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\"><exp data-uniqueid=\"a5e3f335_c47e_1288_2045_6c207de33990\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BMural%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Mural URL}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></a><a href=\"\" target=\"_blank\" data-uniqueid=\"a2625cdd_054e_0c66_e422_634e60c698b1\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BMural%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMural%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Mural_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\"> </a></p><p><br></p><p>﻿﻿<exp data-uniqueid=\"dfb67781_cb11_3275_5b64_8f8194bb961c\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%20URL%20Label%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%20Label%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL_Label%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{Artist URL Label}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  ﻿﻿<a href=\"\" target=\"_blank\" data-uniqueid=\"676b494c_b3ab_b93a_d7ed_336ff4fcab3f\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BArtist%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\"><exp data-uniqueid=\"df9714cf_c579_4595_cdb1_c1db436b4e93\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%20URL%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Artist URL}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></a> </p><p><br></p><p><exp data-uniqueid=\"9f769bb2_9be0_392c_88f2_2c643b4e4284\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%20URL%20Label%202%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%20Label%202%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL_Label_2%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Artist URL Label 2}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  <a href=\"\" target=\"_blank\" data-uniqueid=\"d559d416_6483_5765_2ab5_e1059475e723\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22%22%2C%22expression%22%3A%7B%22name%22%3A%22%7BArtist%20URL%202%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%202%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL_2%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D%7D\"><exp data-uniqueid=\"fe425d0f_6447_9f23_3260_2fa5fca7f43a\" data-dsid=\"dataSource_2-Murals_20201103_5167\" data-expression=\"%7B%22name%22%3A%22%7BArtist%20URL%202%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BArtist%20URL%202%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Murals_20201103_5167-selection%22%2C%22jimuFieldName%22%3A%22Artist_URL_2%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿{Artist URL 2}﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></a> </p><p><br></p><p> </p>",
+        "placeholder": "<p style=\"\"><span style=\"color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. \n \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        },
+        "tooltip": {
+          "name": "Expression 1",
+          "parts": [
+            {
+              "type": "FIELD",
+              "exp": "{Mural Name}",
+              "dataSourceId": "dataSource_2-Murals_20201103_5167-selection",
+              "jimuFieldName": "Mural_Name",
+              "isFromRepeatedDataSourceContext": false
+            }
+          ]
+        }
+      },
+      "id": "widget_306",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Murals_20201103_5167",
+          "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Mural_Name",
+            "Description",
+            "Artist",
+            "Year",
+            "Address",
+            "Location",
+            "Mural_URL_Label",
+            "Mural_URL",
+            "Artist_URL_Label",
+            "Artist_URL",
+            "Artist_URL_Label_2",
+            "Artist_URL_2"
+          ]
+        }
+      ]
+    },
+    "widget_312": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 81",
+      "config": {
+        "text": "<p><span style=\"font-size: 25px;\">Mural Map Guide</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_312"
+    },
+    "widget_313": {
+      "id": "widget_313",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "340px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 40,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light-400)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "template": "rect"
+        },
+        "defaultState": 1
+      },
+      "layouts": {
+        "FIRST": {
+          "MEDIUM": "layout_256"
+        },
+        "SECOND": {
+          "MEDIUM": "layout_260"
+        }
+      },
+      "version": "1.4.0",
+      "label": "Sidebar 1"
+    },
+    "widget_314": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.4.0",
+      "label": "Fixed Panel 7",
+      "id": "widget_314",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_262"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary-200)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_316": {
+      "uri": "widgets/common/text/",
+      "version": "1.4.0",
+      "label": "Text 83",
+      "config": {
+        "text": "<p><span style=\"font-size: 25px;\">Mural Map Guide</span></p><p><br></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_316"
+    }
+  },
+  "exbVersion": "1.4.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/morandi/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "SMALL": {
+        "width": 360,
+        "height": 640
+      }
+    }
+  },
+  "template": "jewelrybox",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dataSources": {
+    "dataSource_2": {
+      "type": "WEB_MAP",
+      "itemId": "db3b7a5d7fe845b4b334bf404f18b95f",
+      "id": "dataSource_2",
+      "portalUrl": "https://ctq.maps.arcgis.com"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_7",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_11-zoomToFeature-1622225365845",
+          "widgetId": "widget_11",
+          "messageWidgetId": "widget_7",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-Murals_20201103_5167",
+              "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+              "rootDataSourceId": "dataSource_2"
+            }
+          },
+          "version": "1.4.0"
+        },
+        {
+          "actionId": "select-data-record-action-1622226547896",
+          "messageWidgetId": "widget_7",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Murals_20201103_5167",
+              "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_2-Murals_20201103_5167",
+              "mainDataSourceId": "dataSource_2-Murals_20201103_5167",
+              "rootDataSourceId": "dataSource_2"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.4.0"
+        }
+      ]
+    }
+  },
+  "pageStructure": [
+    {
+      "home": []
+    }
+  ],
+  "timestamp": 1622768526486,
+  "attributes": {
+    "portalUrl": "https://ctq.maps.arcgis.com"
+  },
+  "customTheme": {
+    "sharedThemeVariables": {
+      "header": {
+        "bg": "#005ce6",
+        "color": "#ffffff"
+      },
+      "body": {},
+      "button": {},
+      "logo": {
+        "small": "https://ctq.maps.arcgis.com/sharing/rest/content/items/5c45622e42544f0695d7ade784226800/data",
+        "link": "http://www.ctqconsultants.ca/"
+      }
+    },
+    "colors": {
+      "primary": "#000000",
+      "palette": {
+        "primary": {
+          "100": "#000",
+          "200": "#000",
+          "300": "#000",
+          "400": "#000",
+          "500": "#000000",
+          "600": "#1a1a1a",
+          "700": "#333",
+          "800": "#4d4d4d",
+          "900": "#666"
+        }
+      }
+    }
+  },
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "sizeMode": {
+        "LARGE": {
+          "position": "CENTER",
+          "width": "480px",
+          "height": "400px"
+        }
+      },
+      "interactionType": "BUTTON_INLINE",
+      "interactionStyles": {
+        "text": "",
+        "textSize": "13px",
+        "buttonText": "",
+        "buttonTextSize": "16px"
+      },
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_40"
+      },
+      "index": 0,
+      "isSplash": false,
+      "label": "Window 1"
+    },
+    "dialog_2": {
+      "id": "dialog_2",
+      "mode": "FIXED",
+      "sizeMode": {
+        "LARGE": {
+          "position": "CENTER",
+          "width": "480px",
+          "height": "562px"
+        }
+      },
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_41"
+      },
+      "index": 1,
+      "isSplash": false,
+      "label": "Window 2"
+    },
+    "dialog_3": {
+      "id": "dialog_3",
+      "mode": "FIXED",
+      "sizeMode": {
+        "LARGE": {
+          "position": "RIGHT",
+          "width": "552px"
+        }
+      },
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fit",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_248"
+      },
+      "index": 2,
+      "isSplash": false,
+      "label": "Window 3"
+    }
+  },
+  "screenGroups": {},
+  "screens": {},
+  "header": {
+    "layout": {
+      "LARGE": "layout_116",
+      "SMALL": "layout_117",
+      "MEDIUM": "layout_254"
+    },
+    "height": {
+      "LARGE": "50"
+    }
+  }
+}

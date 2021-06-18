@@ -5,6 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+
 .home,
 .services,
 .products,
@@ -26,7 +27,7 @@
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  background-image: url('/imageS/frontpageimg.png');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;

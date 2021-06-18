@@ -3,7 +3,7 @@
   background: #fff;
 }
 
-h1 {
+h3 {
   text-align: center;
 }
 
@@ -91,6 +91,12 @@ h1 {
 
 .cards__item__info {
   padding: 20px 30px 30px;
+}
+
+.cards__item__submission{
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .cards__item__text {

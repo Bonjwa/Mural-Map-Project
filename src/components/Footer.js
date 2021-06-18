@@ -1,54 +1,67 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+import { Button } from './Button';
 
 function Footer() {
+  const excelTable = ()=> window.location.href="https://ctqconsultants-my.sharepoint.com/:x:/g/personal/ctqgis_ctqconsultants_ca/EYniHJRIKOJEjUNtOAOPiakBgVu-3MTbe9H33mHHgBYCNg?e=hSaElH"
+  
   return (
     <div className='footer-container'>
-      <div class='footer-links'>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>© 2020 CTQ Consultants Ltd.. All Rights Reserved</small>
-          <div class='social-icons'>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+          Get the latest Excel table of murals and their addresses here:
+        </p>
+        <div className='input-areas'>
+            <Button 
+              buttonStyle='btn--outline'
+              onClick = {excelTable}
+            >
+                Download
+            </Button>
+        </div>
+        <p className='footer-subscription-text'>
+          <br></br>
+          Go to File, Save As, Download a Copy
+        </p>
+      </section>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <small className='website-rights'>© 2021 CTQ Consultants Ltd.. All Rights Reserved</small>
+          <div className='social-icons'>
             <a 
-              target="_blank" 
+              target="_blank"
+              rel="noopener noreferrer" 
               href="https://www.facebook.com/CTQ-Consultants-Ltd-128916220493201" 
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
             >
-                <i class='fab fa-facebook-f' />
+                <i className='fab fa-facebook-f' />
             </a>
             <a 
-              target="_blank" 
+              target="_blank"
+              rel="noopener noreferrer" 
               href="https://www.instagram.com/ctqkelowna/" 
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
             >
-                <i class='fab fa-instagram' />
+                <i className='fab fa-instagram' />
             </a>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            <a
+              className='social-icon-link twitter'
+              rel="noopener noreferrer"
+              href="https://twitter.com/CtqLtd"
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+              <i className='fab fa-twitter' />
+            </a>
+            <a
+              className='social-icon-link twitter'
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/company/ctq-consultants-ltd.?trk=tabs_biz_home"
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i className='fab fa-linkedin' />
+            </a>
           </div>
         </div>
       </section>

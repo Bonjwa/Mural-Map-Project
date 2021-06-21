@@ -1,9 +1,23 @@
-import React, { useRef } from 'react';
+import React, { useRef, useHistory, useLocation, useState, useEffect } from 'react';
 import '../../App.css';
+const Example = (props) => {
+  const history = useHistory();
+  const location = useLocation();
+
+  const initialState = location.state;
+  const [state, setState] = useState(initialState);
+
+
+  useEffect(() => {
+    const persistentState = state;
+    history.replace({ pathname: location.pathname }, persistentState);
+  },[state]);
+
+  return (null);
+}
 
 export default function Survey123() {
   let survey123 = useRef(null)
-
 
   return (<div className='products' ref={survey123}>
             <iframe 

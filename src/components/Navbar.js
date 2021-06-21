@@ -41,14 +41,14 @@ function Navbar() {
               </Link>           
             </li>
             <li className='nav-item'>
-              <Link
+              <a
                 target="_parent"
-                to='../applications/mural map'
+                href='../applications/mural map'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Mural Map
-              </Link>
+              </a>
             </li>
             <li>
               <Link

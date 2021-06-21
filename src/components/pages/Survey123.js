@@ -1,4 +1,4 @@
-import React, { useRef, useHistory, useLocation, useState, useEffect } from 'react';
+import React, { useRef } from 'react';
 import '../../App.css';
 
 export default function Survey123(props) {

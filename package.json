@@ -1,5 +1,6 @@
 {
   "name": "navbar-dropdown-v1",
+  "homepage": "https://muralmap.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -159,6 +159,8 @@ require([
     let locator = new Locate({
         view: mapView,
     });
+    mapView.ui.add(locator, 'top-left');
+    
     let searchWidgetNav = new Search({
         container: "searchNavDiv",
         view: mapView,

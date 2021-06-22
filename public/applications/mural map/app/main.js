@@ -1,6 +1,5 @@
 var app;
 
-
 require([
     //esri modules
     "esri/tasks/Locator",
@@ -85,7 +84,7 @@ require([
         `
     };
     /*popup section end*/
-    let labelTourNum = {
+    let labelTourNum = { //label graphic to change the look from the default styl
         symbol: {
             type: "text",
             textsize: '3px',
@@ -160,7 +159,7 @@ require([
         view: mapView,
     });
     mapView.ui.add(locator, 'top-left');
-    
+
     let searchWidgetNav = new Search({
         container: "searchNavDiv",
         view: mapView,
@@ -212,7 +211,13 @@ require([
         domSwitch.setAttribute('color', 'neutral');
         domSwitch.innerHTML = 'Find Closest Mural(s)!';
     };
-
+    
+    var view = new MapView({
+        container:"viewDiv",
+        map:map,
+        zoom:  4,
+        center:[15,65]
+    });
     let clear_muralfinder = document.getElementById('clear_button_mural');
     clear_muralfinder.addEventListener('click', e => {
         clear_muralfinder.setAttribute('loading', true);

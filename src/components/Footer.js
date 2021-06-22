@@ -7,7 +7,7 @@ function Footer() {
   
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Get the latest Excel table of murals and their addresses here:
         </p>
@@ -23,10 +23,10 @@ function Footer() {
           <br></br>
           Go to File, Save As, Download a Copy
         </p>
-      </section>
+      </section> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>© 2021 CTQ Consultants Ltd.. All Rights Reserved</small>
+          <small className='website-rights'>© 2021 CTQ Consultants Ltd. All Rights Reserved</small>
           <div className='social-icons'>
             <a 
               target="_blank"

@@ -5,6 +5,7 @@
 
 h3 {
   text-align: center;
+  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
 }
 
 .cards__container {
@@ -68,6 +69,7 @@ h3 {
   color: #fff;
   background-color: #70868f;
   box-sizing: border-box;
+  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
 }
 
 .cards__item__img {
@@ -91,6 +93,7 @@ h3 {
 
 .cards__item__info {
   padding: 20px 30px 30px;
+  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
 }
 
 .cards__item__submission{

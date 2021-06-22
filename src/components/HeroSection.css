@@ -23,6 +23,7 @@ video {
   font-size: 100px;
   margin-top: -100px;
   text-align: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .hero-container > p {
@@ -36,10 +37,12 @@ video {
 
 .hero-btns {
   margin-top: 32px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .hero-btns .btn {
   margin: 6px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .fa-play-circle {

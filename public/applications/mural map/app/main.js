@@ -43,11 +43,10 @@ require([
     /*don't remove or touch*/
     const secure = eval(function (p, a, c, k, e, d) {e = function (c) {return c};if (!''.replace(/^/, String)){while (c--) {d[c] = k[c] || c}k = [function (e) {return d[e]}];e = function () {return '\\w+'};c = 1};while (c--){if (k[c]) 
     {p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])}}return p}('"2-1-0"', 3, 3, 'ybED2Jt3hviwCQ|KvuKpDmY06kJOOkiE701ffiuT43BN5gwu|AAPK69758a65b76b414b924bfbcb77d69be0RuHgNYAhAiMPslP'.split('|'), 0, {}));
-    eval(function (p, a, c, k, e, d) {e = function (c) {return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))};if 
-    (!''.replace(/^/, String)) {while (c--) {d[e(c)] = k[c] || e(c)}k = [function (e) {return d[e]}];e = function () {return '\\w+'};c = 1};while (c--) {if (k[c]) {p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])}}return p}
-    ('z f=["\\p\\q\\3\\6\\l\\r","\\7\\7\\c\\6\\5\\b\\4\\a\\D\\p\\5\\a\\2\\4\\5\\2\\8\\j\\8\\2\\b\\v\\8\\2\\e\\2\\C\\2\\4\\4\\B\\5\\b\\2\\l\\d\\A\\9\\E\\n\\m\\s\\7\\o\\7\\3\\G\\c\\H\\I\\c\\y\\6\\g\\9\\6\\q\\u\\J\\s\\d\\5\\i\\w\\h\\h\\i\\3\\t\\4\\d\\j\\e\\e\\3\\9\\F\\8\\x\\K\\m\\a\\n\\k\\9\\y\\r\\2\\t\\u\\v\\w\\L\\x\\o\\g\\3\\k\\M\\N"];O[f[0]]=f[1]',
-     51, 51, '||x62|x69|x37|x36|x4B|x41|x34|x75|x35|x39|x50|x30|x66|_0xcd24|x76|x4F|x6B|x31|x77|x65|x4E|x67|x68|x61|x70|x79|x59|x45|x44|x32|x4A|x33|x2D|var|x52|x64|x63|x38|x48|x54|x4D|x73|x6C|x6D|x42|x74|x43|x51|esriConfig'.split('|'), 0, {}))
-    /* don't touch or remove */
+    esriConfig.apiKey=secure
+    esriConfig.portalUrl='https://ctq.maps.arcgis.com/arcgis'
+    
+     /* don't touch or remove */
 
     /*popup section */
     const template = {

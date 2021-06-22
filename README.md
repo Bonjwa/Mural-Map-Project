@@ -26,7 +26,7 @@ Mural Map uses a number of dependencies to work properly:
 - [ArcGIS JavaScript API] - Web mapping API from Esri
 - [Calcite Design Theme] - Calcite Theme from Esri
 - [React.js] - JavaScript Framework
-- [Calcite Maps] - Web template boilerplate for web mapping applications
+- [Calcite Maps] - Boilerplate template for web mapping applications
 - [Node Package Manager] - JavaScript Library Package Manager
 - [ArcGIS Online] - Feature layer hosting service
 

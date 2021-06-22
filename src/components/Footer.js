@@ -26,7 +26,7 @@ function Footer() {
       </section> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <small className='website-rights'>© 2021 CTQ Consultants Ltd.. All Rights Reserved</small>
+          <small className='website-rights'>© 2021 CTQ Consultants Ltd. All Rights Reserved</small>
           <div className='social-icons'>
             <a 
               target="_blank"

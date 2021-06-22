@@ -14,7 +14,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <a target="_blank" rel="noopener noreferrer" href="https://www.ctqconsultants.ca/" className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="https://i.imgur.com/lg7gSq5.png" alt="CTQ Logo"></img>
+            <img src="https://www.ctqconsultants.ca/wp-content/uploads/2020/04/logo-white-sml.png" alt="CTQ Logo"></img>
           </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -35,7 +35,7 @@ function Navbar() {
                 Mural Map
               </a>
             </li>
-            <li>
+            <li className='nav-item'>
               <Link
                 to='/survey'
                 className='nav-links'

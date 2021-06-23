@@ -1,5 +1,4 @@
 var app;
-var dianne;
 
 /*
 ---Project Dependencies and Imports---

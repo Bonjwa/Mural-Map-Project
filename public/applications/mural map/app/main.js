@@ -43,9 +43,6 @@ require([
     /*don't remove or touch*/
     const secure = eval(function (p, a, c, k, e, d) {e = function (c) {return c};if (!''.replace(/^/, String)){while (c--) {d[c] = k[c] || c}k = [function (e) {return d[e]}];e = function () {return '\\w+'};c = 1};while (c--){if (k[c]) 
     {p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])}}return p}('"2-1-0"', 3, 3, 'ybED2Jt3hviwCQ|KvuKpDmY06kJOOkiE701ffiuT43BN5gwu|AAPK69758a65b76b414b924bfbcb77d69be0RuHgNYAhAiMPslP'.split('|'), 0, {}));
-    esriConfig.apiKey=secure
-    esriConfig.portalUrl='https://ctq.maps.arcgis.com/arcgis'
-    
      /* don't touch or remove */
 
     /*popup section */
@@ -435,4 +432,6 @@ require([
             return facilitiesFeatureLayer.definitionExpression = "Region = '" + value + "'";
         } /*Regions*/
     });
+    esriConfig.apiKey=secure
+    esriConfig.portalUrl='https://ctq.maps.arcgis.com/arcgis'
 });

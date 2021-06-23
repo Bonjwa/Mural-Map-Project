@@ -1,5 +1,12 @@
 var app;
+var dianne;
 
+/*
+---Project Dependencies and Imports---
+1.) The following dependencies and imports must be in order...
+2.) Syntax: require([module1, module2],function(module1,module2){....code here....})
+3.) Any missing characters, strings or wrong order will throw an error
+ */
 require([
     //esri modules
     "esri/tasks/Locator",
@@ -40,12 +47,22 @@ require([
     CalciteMaps,
     CalciteMapsArcGIS,
 ) {
-    /*don't remove or touch*/
+    //----project depenencies and imports end----
+
+    /*
+    don't remove or touch... 
+    serves as a connection with AGOL
+    */
     const secure = eval(function (p, a, c, k, e, d) {e = function (c) {return c};if (!''.replace(/^/, String)){while (c--) {d[c] = k[c] || c}k = [function (e) {return d[e]}];e = function () {return '\\w+'};c = 1};while (c--){if (k[c]) 
     {p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])}}return p}('"2-1-0"', 3, 3, 'ybED2Jt3hviwCQ|KvuKpDmY06kJOOkiE701ffiuT43BN5gwu|AAPK69758a65b76b414b924bfbcb77d69be0RuHgNYAhAiMPslP'.split('|'), 0, {}));
-     /* don't touch or remove */
+    // don't remove
 
-    /*popup section */
+    /*
+    ---popup section---
+    1.) the template variable contains the html code for the esri popup
+    2.) the html code is enclosed by back quotes`` not quotation marks''
+    3.) anything within a curly bracket {} refers to the attribute from mural feature layer defined by facilitiesFeatuerlayer
+    */
     const template = {
         title: `<div class="container-2"><div class="c-logo"><img src="{Logo_URL}"></div><div class="m-name"><b>{Mural_Name}</b></div></div>`,
         lastEditInfoEnabled: false,
@@ -79,7 +96,16 @@ require([
             </div>
         `
     };
-    /*popup section end*/
+    /*
+    ---popup section end---
+    */
+
+    /**
+    ---numbered pin label section---
+    1.) labelTourNum variable defines the numbered pin style and is called in the facilitiesFeatureLayer labelingInfo Properties
+    2.) labelExpressionInfo property defines the attribute used to label the feature layer
+    3.) symbol property defines the actual style of the label
+     */
     let labelTourNum = { //label graphic to change the look from the default styl
         symbol: {
             type: "text",
@@ -99,6 +125,25 @@ require([
             expression: "$feature.Tour_Number"
         }
     };
+    /**
+     * ---numbered pin label section end---
+     */
+
+    //defines the route symbol for mural finder
+    let routeSymbol = {
+        type: "simple-line",
+        color: [0, 245, 245, 0.75],
+        width: "5",
+    };
+    const routesLayer = new GraphicsLayer();
+    const facilitiesLayer = new GraphicsLayer();
+    
+
+    /**---layer variables section---
+     * facilitiesFeatureLayer is the Mural Map data in arcgis online
+     * datasetURL is a datafile layer that is used for the closestfacility function
+     */
+
     const facilitiesFeatureLayer = new FeatureLayer({
         url: "https://services6.arcgis.com/dUO3N3UOHvGU89bM/arcgis/rest/services/Murals_20201103/FeatureServer/0",
         popupTemplate: template,
@@ -110,78 +155,101 @@ require([
     const datasetURL = new DataFile({
         url: networkServiceUrl + "0/query?where=1%3D1&returnGeometry=true&outFields=*&f=json"
     });
-    let routeSymbol = {
-        type: "simple-line",
-        color: [0, 245, 245, 0.75],
-        width: "5",
-    };
-    const routesLayer = new GraphicsLayer();
-    const facilitiesLayer = new GraphicsLayer();
+    /**
+     * ---Layer variables section end---
+     */
+
+
+
+    /**
+     * Esri out of the box section
+     * this section contains the code specific to esri class instances
+     * contains map, mapview, locate, search, and directions
+     * general syntax for creating a new esri object is:
+     *     let <variablename> = new <classname>({...properties here...})
+     */
 
     // Map 
     let map = new Map({
-        basemap: "osm",
-        layers: [routesLayer, facilitiesLayer, facilitiesFeatureLayer]
+        //defines which basemap to use
+        basemap: "osm", 
+        //adds featurelayer or graphic layer to the map
+        layers: [routesLayer, facilitiesLayer, facilitiesFeatureLayer] 
     });
     // 2D View  
     let mapView = new MapView({
-        container: "mapViewDiv",
-        map: map,
+        //states which container in the html document to use
+        container: "mapViewDiv", 
+        //states which map to use in the mapview
+        map: map, 
         zoom: 13,
         center: [-119.465459, 49.880083],
-        padding: {
-            top: 50, //Buffer for the header
+        //buffer or padding for the user interface of the map
+        padding: { 
+            top: 50, 
             right: 0,
             bottom: 0,
             left: 25
         },
-        popup: {
-            dockEnabled: true,
+        //popup settings, does not contain the template
+        popup: { 
+            dockEnabled: true, 
             dockOptions: {
                 // Disables the dock button from the popup
                 buttonEnabled: false,
                 // Ignore the default sizes that trigger responsive docking
                 breakpoint: false,
-                position: 'top-left' // positions the popup bottom left
+                // positions the popup bottom left
+                position: 'top-left' 
             },
             collapsed: false
         }
     });
 
-    //End of constants
-
-    //Default Esri Widgets
+    //locate is the gps locator button
     let locator = new Locate({
         view: mapView,
     });
-    mapView.ui.add(locator, 'top-left');
+    //adds the locator to the topleft view
+    mapView.ui.add(locator, 'top-left'); 
 
+    //search widget
     let searchWidgetNav = new Search({
-        container: "searchNavDiv",
-        view: mapView,
-        allPlaceholder: 'Find murals or address',
+        //states the container to use in the html documentation
+        container: "searchNavDiv", 
+        //states which view to use
+        view: mapView, 
+        allPlaceholder: 'Find murals or address', 
         includeDefaultSources: false,
-        sources: [{
-            layer: facilitiesFeatureLayer,
+        //defines custom sources of our search bar widget
+        sources: [{ 
+            //mural map layer from AGOL
+            layer: facilitiesFeatureLayer, 
             exactMatch: false,
             placeholder: 'Example: Ok Corral Mural',
             name: 'Murals',
             zoomScale: 5000, 
         }, {
             name: "Address",
-            apiKey: secure, //hidden
+            //hidden
+            apiKey: secure, 
             singleLineFieldName: "SingleLine",
-            countryCode:"CAN",  //SETS address search to canada only
+            //SETS address search to canada only
+            countryCode:"CAN",  
             locator: new Locator({
                 url: "https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer"
             })
         }]
     });
+
+    //directions widget
     const directions = new Directions({
         container: "layerlistDiv",
         view: mapView,
     });
-    //end of esri widgets
+    /**
+     * Esri out of the box section end
+     */
 
     // Menu UI - change Basemaps
     query("#selectBasemapPanel").on("change", function (e) {
@@ -208,12 +276,6 @@ require([
         domSwitch.innerHTML = 'Find Closest Mural(s)!';
     };
     
-    var view = new MapView({
-        container:"viewDiv",
-        map:map,
-        zoom:  4,
-        center:[15,65]
-    });
     let clear_muralfinder = document.getElementById('clear_button_mural');
     clear_muralfinder.addEventListener('click', e => {
         clear_muralfinder.setAttribute('loading', true);
@@ -249,11 +311,12 @@ require([
         domSwitch.setAttribute('loading', true); //switches button to loading state
         setTimeout(removeLoading, 1000); //runs removeloading function
     }
-
-    function removeLoading() { //Function that runs the findclosestfacility function using the value from a selector
+    //Function that runs the findclosestfacility function using the value from a selector
+    function removeLoading() { 
         console.log("finding facilities...")
         domSwitch.removeAttribute('loading');
-        let domNumber = document.getElementById('muralFinder').value; //selects how many murals to show routes
+        //selects how many murals to show routes
+        let domNumber = document.getElementById('muralFinder').value; 
         if (domNumber === '') {
             domSwitch.setAttribute("color", "red"), domSwitch.innerHTML = 'Please select a valid number'
         } else {
@@ -327,8 +390,11 @@ require([
     /*
     starts query that gets all the tours in order to populate the filter mural
     */
-    facilitiesFeatureLayer.queryFeatures(params) //RETURNS A PROMISE
+    //queries the mural map layer and it RETURNS A PROMISE
+    facilitiesFeatureLayer.queryFeatures(params) 
+        //a returned promise returns data from AGOL and passes it through these functions
         .then(getLatestRegion)
+        //data from the getlatestregion function is passed to addtoselector function
         .then(addToSelector)
 
     /*
@@ -336,22 +402,35 @@ require([
     and then pass it to the addToSelector function
     */
     function getLatestRegion(result) {
-        var features = result.features; //stores result features into a variable features
+        //stores result features into a variable features
+        var features = result.features; 
         console.log("getting latest region data")
+        //isolates the region attribute to the value variable
         var values = features.map((features) => {
             return features.attributes.Region
-        }) //isolates the region attribute to the value variable
+        }) 
+        //makes a region array
         var region = values.map((value) => {
             return value
-        }) //makes a region array
-        var allRegions = Array.from(new Set(region)) //removes the duplicates from the region attribute field
+        }) 
+        //removes the duplicates from the region attribute field
+        var allRegions = Array.from(new Set(region)) 
 
 
-        // mural list section
+        /**
+         * This section contains the code on how the mural list is created
+         */
+
+        //variable list contains the reference to the muraldiv container in the html document
         const list = document.getElementById('muraldiv');
+
+        //for each feature do the following...
         features.forEach(murals => {
+            //set attr to the mural attributes
             const attr = murals.attributes;
+            //creates a new html div section
             const content = document.createElement('div');
+            //run the following function when this new content div is clicked...
             content.addEventListener('click', () => {
                 mapView.goTo({
                     target: murals,

@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Mural Map
 ## _Explore the Beautiful Murals of Kelowna_
 
-[![N|Solid](https://puu.sh/HQU8J.png)](https://https://developers.arcgis.com/)
+[![N|Solid](https://puu.sh/HQU8J.png)](https://developers.arcgis.com/)
 
 Mural Map is a collection of public and private murals in Kelowna
 Mobile friendly and light-weight web map application

@@ -54,7 +54,7 @@ require([
     */
     const secure = eval(function (p, a, c, k, e, d) {e = function (c) {return c};if (!''.replace(/^/, String)){while (c--) {d[c] = k[c] || c}k = [function (e) {return d[e]}];e = function () {return '\\w+'};c = 1};while (c--){if (k[c]) 
     {p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])}}return p}('"2-1-0"', 3, 3, 'ybED2Jt3hviwCQ|KvuKpDmY06kJOOkiE701ffiuT43BN5gwu|AAPK69758a65b76b414b924bfbcb77d69be0RuHgNYAhAiMPslP'.split('|'), 0, {}));
-    // don't remove
+    // don't remove or edit
 
     /*
     ---popup section---
@@ -266,12 +266,18 @@ require([
 
     function removerRoutes() {
         console.log('Clearing Routes...');
-        routesLayer.removeAll();
-        mapView.graphics.removeAll();
-        directions.viewModel.reset();
-        clear_directions.removeAttribute('loading');
-        clear_muralfinder.removeAttribute('loading');
-        domSwitch.setAttribute('color', 'neutral');
+        //removes mural finder graphics layer
+        routesLayer.removeAll();  
+        //removes mural finder graphics layer
+        mapView.graphics.removeAll(); 
+        //removes directions widget result
+        directions.viewModel.reset(); 
+        //removes the loading attribute from the clear directions button
+        clear_directions.removeAttribute('loading');  
+        //removes the loading attribute from the mural finder button
+        clear_muralfinder.removeAttribute('loading'); 
+        // SETS the color back to the original state
+        domSwitch.setAttribute('color', 'neutral'); 
         domSwitch.innerHTML = 'Find Closest Mural(s)!';
     };
     
@@ -299,13 +305,14 @@ require([
     mapView.popup.actions = [];
 
     //Mural Finder Section
-    let domSwitch = document.getElementById('switch');
+    
     let test = document.getElementById('test');
     test.addEventListener("click", e => {
         console.log(e);
     })
 
     //Mural Finder Closest Facility Section
+    let domSwitch = document.getElementById('switch');
     function addLoading() {
         domSwitch.setAttribute('loading', true); //switches button to loading state
         setTimeout(removeLoading, 1000); //runs removeloading function
@@ -326,6 +333,8 @@ require([
         setTimeout(addLoading, 50); //adds delay and runs addloading function
         console.log(e);
     })
+
+
 
     function findClosestFacility(startFeature, facilityNumber = 3) {
         const closestFacilityTask = new ClosestFacilityTask({

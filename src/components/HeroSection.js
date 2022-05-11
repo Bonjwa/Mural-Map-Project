@@ -13,7 +13,7 @@ function HeroSection() {
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
       <h1>Kelowna Murals</h1>
-      <p>This web app will guide you through the wonderful murals of Kelowna</p>
+      <p>This web app will guide you through the wonderful murals of Kelowna.</p>
       <div className='hero-btns'>
         <Button
           className='btns'

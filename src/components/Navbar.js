@@ -14,7 +14,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <a target="_blank" rel="noopener noreferrer" href="https://www.ctqconsultants.ca/" className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="https://www.ctqconsultants.ca/wp-content/uploads/2020/04/logo-white-sml.png" alt="CTQ Logo"></img>
+            <img src="images/CTQ_Brandmark_Disciplines_H_S_RGB.png" alt="CTQ Logo"></img>
           </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -28,7 +28,7 @@ function Navbar() {
             <li className='nav-item'>
               <a
                 target="_parent"
-                href='../applications/mural map'
+                href='https://ctq.maps.arcgis.com/apps/instant/nearby/index.html?appid=3329ebbf0fa9454ea1b9a45ab269eb0a'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

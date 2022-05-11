@@ -1,11 +1,12 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #91b27e;
 }
 
 h3 {
   text-align: center;
-  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
+  color: #40485b;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cards__container {
@@ -31,6 +32,7 @@ h3 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background: #92b8d0
 }
 
 .cards__item__link {
@@ -66,10 +68,10 @@ h3 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #70868f;
+  color: #1e5380;
+  background-color: #dfe9f0;
   box-sizing: border-box;
-  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cards__item__img {
@@ -93,17 +95,17 @@ h3 {
 
 .cards__item__info {
   padding: 20px 30px 30px;
-  font-family: novecento_widemedium, Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cards__item__submission{
-  color: #252e48;
+  color: #1e5380;
   font-size: 18px;
   line-height: 24px;
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #175940;
   font-size: 18px;
   line-height: 24px;
 }

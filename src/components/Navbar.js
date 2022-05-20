@@ -14,7 +14,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <a target="_blank" rel="noopener noreferrer" href="https://www.ctqconsultants.ca/" className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="images/CTQ_Brandmark_Disciplines_H_S_RGB.png" alt="CTQ Logo"></img>
+            <img src="images/CTQ_Brandmark_Disciplines_H_S_RGB_Cropped.png" alt="CTQ Logo"></img>
           </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
